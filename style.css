@@ -1,24 +1,25 @@
-nav{
-    border: 2px solid black;
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2px 2px 2px 2px;
     font-size: 1.5rem;
-    
+
 }
 
-.headerleft{
+.headerleft {
     display: flex;
     justify-content: flex-start;
-    align-items:center;
+    align-items: center;
     padding: 5px 5px 5px 5px;
     flex-grow: 1;
 }
-.logo{
+
+.logo {
     width: 80px;
 }
-.i{
+
+.i {
     display: 800px;
 }
 
@@ -29,16 +30,17 @@ nav{
     display: flex;
     flex-grow: 2;
     align-items: center;
-  }
-  
-  #search-input {
+}
+
+#search-input {
     min-width: 70%;
     padding: 10px 30px 10px 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     outline: none;
-  }
-    .fa-search {
+}
+
+.fa-search {
     position: absolute;
     top: 50%;
     right: 200px;
@@ -47,58 +49,56 @@ nav{
 }
 
 
-.headerright{
+.headerright {
     display: flex;
     justify-content: space-evenly;
     padding: 5px 5px 5px 5px;
     flex-grow: 1;
 }
-.profile{
+
+.profile {
     width: 20px;
     background-color: black;
     border-radius: 50%;
     border: solid black 2px;
 }
 
-.centerbody{
-    border: 2px solid red;
+.centerbody {
     display: flex;
-    justify-items:space-between;
+    justify-items: space-between;
 }
-.leftcenter{
 
-    overflow-x: scroll;
+.leftcenter {
+
+    justify-content: right;
     flex-grow: 1;
-    width: 15%;
-    padding: 10px 10px;
+    width: 10%;
     gap: 1px;
-    
-    
+    align-self: stretch;
+
+
 }
-.btn{
+
+i:hover {
+
+    color: blue;
+    background-color: rgb(245, 245, 242);
+}
+
+i {
     padding: 10px 10px;
     list-style-type: none;
     align-content: flex-start;
-
-}
-li{
-align-content: flex-start;
 }
 
-.rightcenter{
-    
-    justify-content: center;
+
+.rightcenter {
+
+    justify-content: space-between;
     overflow-y: auto;
-    flex-wrap: wrap;
-    padding left: 80% ;
-    width:60%;
+    flex-wrap: nowrap;
+    padding left: 80%;
+    width: 60%;
     flex-grow: 2;
-    padding:20px 20px 20px 20px ;
-
-
+    padding: 20px 20px 20px 20px;
 }
-
-
-
-
-
